@@ -1,0 +1,11 @@
+Hi! This is a guideline to run the CNN codes.
+
+1. Modify the file path in "make_dat.m".
+    Run the "make_dat.m".
+2. Run the "recipe_##_process.m"
+3. Build a folder as the image data set. 
+    Modify the file path to the folder in "CalNumPerImage.m". 
+4. Run the "spectro_make.m".
+5. Build subfolder for each recipe. The name of subfolder is the label of classification. 
+    Store images into corresponding subfolder according the name of produced images.
+6. Run the "CNN_TrainingAndTest.m"     
